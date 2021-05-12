@@ -1,0 +1,3 @@
+# Malbug extension helper
+
+This repository contains the source code to the Malbug browser extension helper. Basically the job of this program is to create a local API that is responsible for sending the data back and forth to the Malbug browser extension. The reason for this extra step is that the browser is incapable of reading files over 10kb which leaves us with a lot of files that we are unable to analyze, so with that in mind we had the idea to create an extra helper script to open an API that the extension can talk to. The Malbug browser extension is closed source as of now but we are fully opensourcing the helper file.
